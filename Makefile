@@ -1,9 +1,9 @@
 all: html
 
-html:
+html: clean
 	Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
 
 clean:
-	rm -rf public/
-	mkdir public
-	touch public/.nojekyll
+	rm -rf docs/
+	mkdir docs
+	touch docs/.nojekyll
