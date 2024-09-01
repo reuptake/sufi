@@ -1,0 +1,22 @@
+bookdown::gitbook:
+  number_sections : false
+  split_by: 'chapter'
+  config:
+    theme: 'white'
+    toc:
+      collapse: none
+      scroll_highlight: true
+      before: |
+        <li><a href="./index.html"><b>Суфийские мотивы</b></a></li>
+    download: []
+    edit: null
+    search: no
+    sharing:
+      facebook: yes
+      twitter: yes
+      google: no
+      linkedin: no
+      weibo: no
+      instapaper: no
+      vk: yes
+      all: []
