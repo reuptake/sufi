@@ -4,7 +4,7 @@ author: "Павел Любецкий"
 date: "2022 год"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
-documentclass: book
+documentclass: article 
 mainfont: "Noto Sans"
 language: ru
 description: "Стихи и проза с суфийскими мотивами."

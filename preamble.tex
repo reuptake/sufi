@@ -2,6 +2,13 @@
 \usepackage[russian]{babel}
 \usepackage{titlesec}
 
+\usepackage{hyperref}
+\hypersetup{
+   colorlinks=true,
+   linkcolor=black,
+   urlcolor=blue
+}
+
 \pagestyle{plain}
 
 \titleformat{\chapter}[display]{\bfseries\Huge}{}{0ex}{}
@@ -11,7 +18,7 @@
 ]
 \titlespacing{\chapter}{0ex}{0ex}{0ex}
 
-\addto\captionsrussian{\renewcommand*\contentsname{содержание}}
+\addto\captionsrussian{\renewcommand*\contentsname{Содержание}}
 
 \makeatletter
 
@@ -25,7 +32,6 @@
 \newcommand\prefix@subsection{}
 \newcommand\prefix@subsubsection{}
 
-\renewcommand{\thechapter}{}
 \renewcommand{\thesection}{}
 \renewcommand{\thesubsection}{}
 \renewcommand{\thesubsubsection}{}
