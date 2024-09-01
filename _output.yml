@@ -8,7 +8,7 @@ bookdown::gitbook:
       scroll_highlight: true
       before: |
         <li><a href="./index.html"><b>Суфийские мотивы</b></a></li>
-    download: []
+    download: ["pdf", "epub", "mobi", "docx"] 
     edit: null
     search: no
     sharing:
@@ -20,3 +20,9 @@ bookdown::gitbook:
       instapaper: no
       vk: yes
       all: []
+bookdown::epub_book: default
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  keep_tex: no
