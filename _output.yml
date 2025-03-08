@@ -7,7 +7,7 @@ bookdown::gitbook:
       collapse: none
       scroll_highlight: true
       before: |
-        <li><a href="./index.html"><b>Суфийские мотивы</b></a></li>
+        <li><a href="./index.html"><b>Стихи о любви</b></a></li>
     download: ["pdf", "epub", "mobi", "docx"] 
     edit: null
     search: no

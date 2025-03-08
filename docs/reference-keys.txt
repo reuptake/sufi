@@ -7,15 +7,3 @@ love
 star
 desert
 dichotomy
-translations
-rumi
-prose
-tasawwuf
-tasawwuf_1
-tasawwuf_2
-tasawwuf_3
-tasawwuf_4
-tasawwuf_5
-tasawwuf_6
-tasawwuf_7
-tasawwuf_8
